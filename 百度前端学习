@@ -1,0 +1,57 @@
+	• 学习初衷
+	• 想建立属于自己的个人网站
+	• WEB
+	• web 包括了web客户端、web服务端，采用常见的(B/S)计算机结构，中间可有通信协议，如http,https
+
+
+	• HTML： 内容与语义
+	• CSS： 样式（属性：值）
+	• Javascript：动态效果
+
+	• HTML
+	• Html(Hypertext Markup Language) 超文本标记语言，web网页的结构，
+	•  元素(elements),标签(tags),内容(content),属性(Attribute).
+	• 接下来解析以下几个与html相关的关键词：
+		{
+		Html是由一系列元素(elements)组成的。
+		元素(elements)是由 标签(tags)+内容(content)组成的。
+		元素(elements)这个家伙还有属性(Attribute)，放在开始标签(tags)中
+		属性(Attribute)带有属性值(就像家属一样)
+		}
+	• Html页面的基本结构
+	    {
+        <!DOCTYPE html>
+        <html>
+          <head>
+            <meta charset="utf-8">
+            <title>My test page</title>
+          </head>
+          <body>
+            <img src="images/firefox-icon.png" alt="My test image">
+          </body>
+        </html>
+    }
+    <!DOCTYPE html> — 文档类型（doctypes）
+    <html>根元素,包含整个页面的内容
+    <head> 元素,常可用于引用css样式(后面讲)、字符编码等,用户不可见的
+	    <meta charset="utf-8"> 文档所使用的字符编码
+    <title></title> 页面的标题，显示在浏览器标签上(网页被收藏为标签的默认名称)
+	• CSS
+	• CSS(Cascading Style Sheets)层叠样式表，样式表达语言
+	• 下面来看CSS规则：
+		p{
+color:red;
+}
+p: 选择符(Selector)
+color:red :声明(Declaration)
+color: 属性(Property)
+red : 属性值(Property Value)
+	• 格式：
+			§ 大括号里面放除选择符外的声明
+			§ 冒号分离属性和属性值
+			§ 分号分离每个声明
+			§ 往下扩展可有选择符的扩展、声明的扩展等
+			§ CSS 有一个重要的东西叫做盒子模型
+	• Javascript
+		○ 提供动态交互
+缺乏举一反三的精神
